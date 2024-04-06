@@ -1,0 +1,159 @@
+:root {
+    font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header__block {
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(246, 246, 255);
+    max-width: 1200px;
+}
+
+.header__block_with-img {
+    position: relative;
+}
+.header__block_first {
+    background: blue;
+}
+
+.header__block_second {
+    background: white;
+}
+
+.header__block_third {
+    background: green;
+}
+
+.header__logo {
+    position: absolute;
+    right: .5%;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 35rem;
+    width: 35rem;
+}
+
+.header__subtitle {
+    font-size: 5rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+.header__title {
+    font-size: 10rem;
+    color: darkmagenta;
+    font-family: "Protest Strike", sans-serif;
+}
+
+.block__container_first {
+    padding: 2.5rem 0;
+}
+
+.block__container_second {
+    padding-top: 1.5rem;
+}
+
+.block__container_third {
+    padding-top: 10rem;
+}
+
+.header__block_fourth {
+    padding: 0;
+}
+
+.block__container_fourth {
+    padding: 1.5rem 0;
+    background: rgb(104, 104, 238);
+}
+
+.section__title {
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 1rem;
+    font-weight: 600;
+}
+
+.comics__cards {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background: url('../img/Без имени.jpeg');
+    border: 1.5px solid orange;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: .5rem;
+}
+
+
+.cards__container {
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.comics__card {
+    margin-right: 2rem;
+}
+
+.comics__card:last-child {
+    margin-right: 0;
+}
+
+.card__img {
+    border: 1px solid orange;
+    height: 20rem;
+    width: 15rem;
+}
+
+.card__description {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.comics__card_link {
+    text-decoration: none;
+    margin-right: 3rem;
+}
+
+.comics__card_link:last-child {
+    margin-right: 0;
+}
+
+
+.cards__title {
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+.footer {
+    margin-top: 1.5rem;
+    background: rgb(104, 104, 238);
+    text-align: center;
+    color: white;
+}
+
+.footer__container {
+    padding: .5rem;
+}
+
+.footer__text {
+    font-size: 1.25rem;
+}
